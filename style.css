@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111210;
+  color: #e8e5dc;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #1c1e1b;
+  padding: 20px 40px;
+  border-bottom: 2px solid #2e3028;
+}
+
+header h1 {
+  color: #e8e5dc;
+  font-size: 32px;
+}
+
+.logo {
+  background-color: #f0a500;
+  color: #111;
+  padding: 10px 16px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav {
+  background-color: #1c1e1b;
+  padding: 12px 40px;
+  border-bottom: 2px solid #2e3028;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+}
+
+nav a {
+  color: #8a8880;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+nav a:hover, nav a.active {
+  color: #f0a500;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.mission {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mission h2 {
+  color: #f0a500;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.mission p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #e8e5dc;
+}
+
+footer {
+  background-color: #1c1e1b;
+  text-align: center;
+  padding: 20px;
+  color: #8a8880;
+  border-top: 2px solid #2e3028;
+  margin-top: 60px;
+}
