@@ -88,3 +88,155 @@ footer {
   border-top: 2px solid #2e3028;
   margin-top: 60px;
 }
+
+
+.about-author {
+  text-align: center;
+  padding: 40px;
+  border-bottom: 1px solid #2e3028;
+}
+
+.about-author img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+  border: 3px solid #f0a500;
+}
+
+.about-author h2 {
+  color: #f0a500;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.about-author p {
+  color: #e8e5dc;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 12px;
+  line-height: 1.8;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: #1c1e1b;
+  border: 1px solid #2e3028;
+}
+
+.contact-form h2 {
+  color: #f0a500;
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+label {
+  display: block;
+  color: #e8e5dc;
+  margin-bottom: 6px;
+  margin-top: 16px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #111210;
+  border: 1px solid #2e3028;
+  color: #e8e5dc;
+  font-size: 15px;
+}
+
+button {
+  margin-top: 24px;
+  background-color: #f0a500;
+  color: #111;
+  padding: 12px 28px;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #ffc02e;
+}
+
+
+/*. Code below is for the resources page */
+
+.useful-links {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #2e3028;
+}
+
+.useful-links h2 {
+  color: #f0a500;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.site-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.site-list li {
+  color: #8a8880;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.site-list a {
+  color: #f0a500;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.site-list a:hover {
+  color: #ffc02e;
+}
+
+.vocab-section {
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.vocab-section h2 {
+  color: #f0a500;
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.vocab-intro {
+  color: #8a8880;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+
+.vocab-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vocab-list li {
+  color: #8a8880;
+  font-size: 15px;
+  line-height: 1.7;
+  border-left: 3px solid #f0a500;
+  padding-left: 16px;
+}
+
+.vocab-list strong {
+  color: #e8e5dc;
+}
