@@ -89,7 +89,7 @@ footer {
   margin-top: 60px;
 }
 
-
+/* Code below is for the about page */
 .about-author {
   text-align: center;
   padding: 40px;
@@ -239,4 +239,107 @@ button:hover {
 
 .vocab-list strong {
   color: #e8e5dc;
+}
+
+
+
+/* Code below is for the blog page */
+
+.blog-post {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  border-bottom: 1px solid #2e3028;
+}
+
+.blog-post h2 {
+  color: #e8e5dc;
+  font-size: 28px;
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.blog-post h3 {
+  color: #f0a500;
+  font-size: 18px;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+
+.blog-post p {
+  color: #8a8880;
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 12px;
+}
+
+.blog-post .post-meta {
+  color: #4d4c48;
+  font-size: 13px;
+  margin-bottom: 28px;
+}
+
+/* . Code below is for the trends page */
+
+.trends-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.trend-item {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 32px 0;
+  border-bottom: 1px solid #2e3028;
+}
+
+.trend-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #2e3028;
+  line-height: 1;
+  flex-shrink: 0;
+  width: 60px;
+}
+
+.trend-content h3 {
+  color: #f0a500;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.trend-content p {
+  color: #8a8880;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+
+/* Code below is for the video section on the index page */
+.video-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  border-top: 1px solid #2e3028;
+}
+
+.video-section h2 {
+  color: #f0a500;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.video-section p {
+  color: #8a8880;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+video {
+  border: 1px solid #2e3028;
 }
